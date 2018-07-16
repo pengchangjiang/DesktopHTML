@@ -1,0 +1,60 @@
+{
+  "name": "desktophtml",
+  "version": "1.0.0",
+  "private": true,
+  "description": "使用electron开发桌面程序",
+  "main": "main.js",
+  "scripts": {
+    "ele": "electron .",
+    "start": "npm run serve && electron .",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pengchangjiang/DesktopHTML.git"
+  },
+  "author": "pcj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pengchangjiang/DesktopHTML/issues"
+  },
+  "homepage": "https://github.com/pengchangjiang/DesktopHTML#readme",
+  "dependencies": {
+    "element-ui": "^2.4.4",
+    "mapbox-gl": "^0.47.0-beta.1",
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "electron": "^2.0.4",
+    "@vue/cli-plugin-babel": "^3.0.0-rc.4",
+    "@vue/cli-plugin-eslint": "^3.0.0-rc.4",
+    "@vue/cli-service": "^3.0.0-rc.4",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
